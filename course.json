@@ -1,0 +1,1106 @@
+{
+  "course_version" : 2,
+  "environment" : "unittest",
+  "summary" : "This is an introductory Python course in Russian.\n- The course will be most beneficial for beginner-level Python learners.\n- The course covers core Python features.\n- It contains hands-on examples of Python code implementation and exercises to practice new skills.\n- The course is based on the author's personal experience in Python development.\n- I wish you good luck with this course.",
+  "title" : "Python. Start.",
+  "programming_language" : "Python",
+  "language" : "ru",
+  "course_type" : "PyCharm",
+  "vendor" : {
+    "name" : "Artemiikabanov"
+  },
+  "items" : [
+    {
+      "id" : 2036322636,
+      "title" : "Эпизод 1. Введение",
+      "task_list" : [
+        {
+          "id" : 1475256775,
+          "name" : "Первая программа",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "Q1D5Mywp2ciqd6LYG6a6LFi8WQ5hf5braNgt2uj6EoD4ETLbdM+fjq6fP8SWJHRhnIgBwvPtEQ67O4pDzfKMXQ=="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "## Введение\n\nЕсли вы находитесь здесь, то часть с установкой интерпретатора **Python**,\nа также выбоа **IDE** для вас уже пройдена.\n\nДавайте напишем всеми любимую первую программу *\"Hello world!\"*.\nЧтобы вывести какую либно информацию в консоль в **Python** необходимо\nиспользовать функцию    print().\nДля того что бы запустить ваш код нажмите кнопку **Run**.",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 11318177,
+          "name" : "Комментарии",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "2PvlWijZHZzj3Lnqqnf0sAn6LbqNtGdCq9ABHqKd8FZAJff2CbJq5+6UsRb4QeAo"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "##Комментарии\n\nКомментарии в **Python** начинаются с символа **#** и продолжаются до конца\nстроки.\nДля того чтобы закомментировать или раскомментировать всю строку/несколько строк,\nможно использовать:\n\n- *Ctrl + /*    для Windows\n\n- *Cmd + /*     для Mac\n\nДобавьте комментарий к файлу.",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 279966121,
+          "name" : "Переменные",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "qJJ8BNj5Vik01GiBBWAKa5WqrQu914LXvuD6St5OiWvDotqlQ8ArpG/6+/prpkifO9Tg57ZIlXni+nqQqdPbcMQzn4+U3cx+yMmbviRRBdYWFe2aOyFxF0KFdInYeIp94cPF/DmCRSzScZpYWSHIkqiA0QcNLGBogl3YOrdyud8SpOHS8wXVmrAZiKD6zmQVTO26ariXBFx3tUZBAB5qVFiuOclvzYaaXudBFMy5qxlqc2PndZLGiHVZ9wtaACPE++oKv1vS2IADg3hGtLPs9g=="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "## Переменные\n\nПеременные используются для хранения данных, их можно использовать\nповторно сколько угодно раз, а также можно изменять значение и тип переменной.\n\nДля того чтобы объявить переменную достаточно написать ее имя и знак *=* ,\nозначающий присваивание. Переменные желательно называть так, что бы по ее \nназванию было понятно для чего нужна это переменная.\n\n-     name = \"Саша\"\n-     age = 8\n-     money = 122.5\n\nВ языке **Python** принят определенный стиль именования переменных это строчные буквы\nи знак *_*.\n\n    ",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1499489378,
+          "name" : "Типы данных",
+          "files" : {
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "lYRPvfaYxh/1A/z9Egnx9jbOKJgIV1a3/Poz9vRTCboQccxsb2UZYLatHcJpoNc83Dcr3ooPoFlF+PmIa2zoiLMV21JS2P1BnsAepctvxRGPsRvDO5k95L+PLV1P5Md2Hj1JD4HQ0L0HJSSILsDV8SWnIXZkidqxBbI3oTxqmmlJO5Swv64KyiepobA0Sv+MbTC1/3EE3d8LILq8lHMuRI2NsFMhECqjbFkLAE3ZgUl1KZinr3dauTl2Fsml6xGpy0DZQXjD5gK4em5hQtzxiWm5VtB2bGJUIragAn8IDU4ODOcfdvvSEKAKe2v8LHLbHxZWSWArw7nOgazvQDOYqAQO0Y57nh7ObnHULRLeVW5ZT+WyhNjUQYG24e70fBOJ"
+            }
+          },
+          "description_text" : "## Типы данных\n\nТип данных в языке **Python** определяет множество значений для заданной\nпеременной, и возможные операции, которые могут быть с ней произведены.\nВ **Python** динамическая типизация, это значит что при присваивании переменной\nопределенного значения устанавливается ее тип данных.\n\n###Возможные типы данных:\n\n- int - целочисленных тип\n- float - число с плавающей точкой\n- bool - логический тип\n- str  - строка\n- None - ничего (пустой тип)\n\nДля того что бы определить тип переменной необходимо воспользоваться\nфункцией    type().\n\nСамостоятельно определите тип остальных переменных.\n\n### Приведение типов\nВ **Python** один тип даннх можно привести к другому с помощью соотвествующих\nфункций     int() float() str() и т.д.",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 2065827344,
+          "name" : "Ввод и вывод данных",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "LQpaf0TLsxptFlPGAKo80HWpmDQ5G4DIkm3shAmDjRylkTqu8FCVfScUlLZ25xSfQC1IpDhrg5ZTXDw6BkpA5AmoP7OnkfQaKCYvFm+2qrVOV7XRrWQsCX86y40QDMR9ba0/0ck+c55cySIuOWVzpEA4dfJ8Td4xwampSHfAcNY2kreDNKk9b2izwIJY1y0rQ+Y8NX8xsy1VxR3/OUGKiWDzyRrAbTm8CTSDjpBm/UeLJnG84PBRXK7tEImpj9XddyVimkZeWwkEiaP4kmGpgvAz/+6MqxhWpicQ+bZmLzCEkpQU/EyRYmerIGw0gJdPaUO8EJSxbYzi6IA2Hp8Xgx9RQBGblPSzpvCEtVioDS0aaHZVCpK3MU4OjVuNsw6SySy86AHn83SPl517EkOCvdW6PNPOLXtGf1TqS+gyv4PLDIMia0Tj36Ax7xAqwlROrqIzDaJ2TM5HII5Cjlr7oUKheMi23p8z58QniePrToPJQ8X6foZwC09aY4JaY2ndS8RkQ27dCNK1E96jT1uzheNSr9xdv6hkrubT+yvlvwn70TP/BRGgwm0K6q4EPcF2lAyFvNF7iUXgubDtvyEY+HqxSW7AOQWgWV4wkEo3plRYeqqXAR5DiFUIj1JzYwTw+a+2pAvuRgoB8fcHEGfxyg=="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "## Ввод/вывод данных\n\nДля вывода данных в консоль в **Python** используется функция   print().\nДанная функция имеет такие возможности как:\n\n- вывод разных типов данных через ,\n- использование разделителей слов (sep=)\n- использование разных разделителей строк (end=) \n\nДля ввода данных используется функция **input()**, данная функция может\nбыть без параметра и с параметром.\n>  Важно: Результатом функции **input()** всего будет строка.\n\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 511083374,
+          "name" : "Арифметические операции",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "0WeVQgojzlVPzg88e6D0jlaPK9PtJUbfQWsp5HJyRjr1F7Q6BlT9f0R4B3jOnIc+GcpU118GGOSuFWlAUJLfYsqMRjaDYqimXA+GK+4OJGfqGxkkQrfk+v0FBR5XIorW3zjktkQYH5Ejwinq/xM/neVpTwCoySChf1t9ggX2QNQJ5ssvbvy77AtJxtfR0z0GpAEcZ6Un44/kws7Am7XGtTkR0yul9bDaktdb0j2WfFcTXddSD3hYOVSHWi7sZGjMiK0K4TX0bciUa5d91hSgPMZi8YhliziJvDwCnrBDJKjjPrmuyhX3zBSX4d8i5fXs9YfCZM6UfR0bzcNPNndLw+GrFHg5kPiaMya7gQvXy6c56iF+updWgz3rkVQsYG+dr5nhORq8CakFpTuFBJw9i7ARa2R5inw/erAcUSlVhM8lkWNr/iVLD3rSLI17yz5Gb0byFVE2JPmETQYziopjT7oS7WRS9Z0V31HyKDJCe2FqzR9IXgSe6EkLrI7aXNlhCITxNdNb6r8EObFXRCYcUb8IcwVM0sEOoFjmwJDY3ymNboz1Vctgt7BokYSlr7/CYJUmMtMsKPqRE4WcMEkkw4VLskZCG1NvbZr9L6XKYSqiAqyS8n8G20sYWR2gL239dLl9xwi2WjF5Whf6cLKLvkefe6gPGJqjXf6SlcjwEqGjginDU20GQZMgivNhuVxk"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "## Арифметические операции\n\nВ языке **Python** возможны все арифметические операции, основные из них:\n\n- \\+ сложение\n- \\- вычитание\n- \\* умножение\n- \\/ деление\n- \\// целочисленное деление\n- \\% остаток от деления\n- \\** возведение в степень\n\n### Приоритет математических операций\nВ **Python** как и в математике умножение главнее сложения, но для \nудобства лучше использовать () для управления приоритетами.\n\n### Логические операции\n\nТакже как и в других языках в **Python** существуют логические операции.\n\n- \\> больше\n- \\< меньше\n- \\>= больше или равно\n- \\<= меньше или равно\n- \\== сравнение\n- \\!= не равно\n\nРезультатом любой логической операции будет True  или False\n\n### Сложные  логические выражения\n\nДанные выражения применяются для группировки логических операций.\n\n- and -и\n- or - или\n- not - не\n \n### Библиотека Math\n\nДля работы с другими математическими функциями используют библиотеку **Math**.\nПодключить данную библиотеку можно вот так:\n\n    import math\nДалее можно с ней работать, например:\n\n    result = math.sin(a)\nВозможные функции данной библиотеки можете посмотреть по ссылке.\n\n<https://docs.python.org/3/library/math.html>",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1899699120,
+          "name" : "Задание 1.1",
+          "files" : {
+            "task.py" : {
+              "name" : "task.py",
+              "placeholders" : [
+                {
+                  "offset" : 36,
+                  "length" : 6,
+                  "possible_answer" : "PXNohf98r8baGAWz0WMPaw==",
+                  "placeholder_text" : "# TODO"
+                },
+                {
+                  "offset" : 92,
+                  "length" : 6,
+                  "possible_answer" : "PXNohf98r8baGAWz0WMPaw==",
+                  "placeholder_text" : "# TODO"
+                },
+                {
+                  "offset" : 148,
+                  "length" : 6,
+                  "possible_answer" : "PXNohf98r8baGAWz0WMPaw==",
+                  "placeholder_text" : "# TODO"
+                },
+                {
+                  "offset" : 204,
+                  "length" : 6,
+                  "possible_answer" : "PXNohf98r8baGAWz0WMPaw==",
+                  "placeholder_text" : "# TODO"
+                },
+                {
+                  "offset" : 260,
+                  "length" : 6,
+                  "possible_answer" : "PXNohf98r8baGAWz0WMPaw==",
+                  "placeholder_text" : "# TODO"
+                },
+                {
+                  "offset" : 316,
+                  "length" : 6,
+                  "possible_answer" : "PXNohf98r8baGAWz0WMPaw==",
+                  "placeholder_text" : "# TODO"
+                },
+                {
+                  "offset" : 372,
+                  "length" : 6,
+                  "possible_answer" : "PXNohf98r8baGAWz0WMPaw==",
+                  "placeholder_text" : "# TODO"
+                },
+                {
+                  "offset" : 428,
+                  "length" : 6,
+                  "possible_answer" : "PXNohf98r8baGAWz0WMPaw==",
+                  "placeholder_text" : "# TODO"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "JrzofjUamUFCNd6xblui2yFvvjg0y7tYF5wtLFMKccMh6fSwuitp6Me7+Ps2ancCSG6WAdTNC8Ce5kWimXSL3bHKImrl+mj1mx10emn31zUCN/NklQ9IgNGhBba+X+XiCVGROJA0rzJRz+kmWqEB2yqraHG7Ru2IaUFgq63/nFzeDrL3VlrIrEZt+TVQ3FWq3ord8D+2I/Rawx9F0HJkw7vcbx4cFZx9eZ1gdANyuDLeXrHdoHlwrnozVl1eJShjDq0cLm+8znQJXwk71yEhEc7VWusAUNs7mYow8FCEDUSC/O72Yl3Kgq9SoEeLD7gElu4dyOKOnzPCznXdU5rYZYOtS6cEkCAc7Y5AWCDRgxETdaHrVxo3myO3POpx4K/UUvYi31F459O+HAeQc5qLsgvJqDDe8F2XWVyn5BM3XUPrp4R5ga6mtsFDOOWlCswmDghu288rtSYI4MsnyC+jp8N6bewykX/4e6Ym8hTCph0c6rK4LAyqWXdpZLSqA/u4wwtKvV00Z9ZIQB0jlhCf9GN47RkSGZq1ZAvXFGaGfscKU1+cPte1joaZK30yVxyWiHKOQXvJVRWzhFEIi4VT7/AWYZD9SaM9yINCHMZSB4kU9TIuPJU54G2ROSPBdl59KssCm+apBnFcGxe2HOHVXg=="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "XIlL2u+4gqNTqO7La77Ydc1Ef6uzaOuPVESSBgkHh0pyn1Ikti7rrTnkfp9BU/VHAmXD2RShwforztu+Gfo68jkfraMJMHw4lNDMFOMtX27rrTMwXrW0ipJx1fCltbJoAKvw9hhTc/GKQy9U0W5cdrrwke6ZYRvXzAJr1PZlpzTIeYSNMXs96c7W/2SJRqc2uEurTxo70ZAby5hzNuQq0YTAhoH8qc6GIZbtHhg+CQa9NczyXgYPQumSZ+WiEvivk6bDMi3lJeIJol9p0egmroVNswx9n+mpiO4Ji9bxQun3FCNGsZNKkXVyHIBX1Am233jd+meC22NwAyYSNHzcWJX/powxzcm0zRXb9QdRyzKMg3c826msC9q/SeFQrbCMHjq3+YY19fzzxpSx4+0d1BoSiJReSho3k+JVQ+FCi+xYkB0Dm+F76LW7syXXe8IZyVYa+CmXkQb9kU6IYsUhRf4LDdINlO8fE9Uj4URDilgJU70bVtR+cgiW3VX96myigRKE+ws43vEBcXcmdIv2nsjgGZSWKiXtPG5CCj2BKEISleJkeG6+pddMskld/tEGbn9JJyz0nImjtq5GnwWWi7PwknZwvpzl+9lohw0Mtgx0ALrtlUFjUJwUOW4OB0nYQilRCgoKRe47A+DcSlK0Vf0I/etU73pOwlFDx8LvLtIIN4MxGA2zRWEnz8AAvcVo+G9h0u9JRqyG7wBQsE8SS9KaqbxKcqnQLfgMhdxswLbSEZfmvylqmlFn4f2XDyTv0A15ZT29KBc21gYJssktlxH5XVjUuyQn/iiGiFUvhR5+8pHHtHEOUefFnch+XgPDnsXkQd8G4Ebq/DtYAvF7fj22JE+Tp9TFsnu+vswJMmP8SnqujUtwAc9wYWN/5FQVxanXVOWc1HzyKzx2wVa/f9ee5UO51kSNfcAX+zLsEkEe31HCilyNHmyq2HSutpHw+bSH96ru/zp33plAqoxZIH2bDObxrZ7M5kkGnoroxlHs6tpn6/VYgCUHGOiI3k+IfshOWl+CnysoyRkuOOLgTxql9a4ym3IhNQlDHp/NAueuRBPRN+LGKN/6T6UUuL1C1YlWlk9yy92UQbUu4vPlMp/7x1sdco4mqhESUUrs7hnE/CxiYZuf6m2psxfZ60+9xyfLHi9UWRoW6/Ugm7NmeDCXJ5UOLoO8wRfjtjvGgGywkgAmF+tKbZI+BhfdTxpwJK5u2QEP5IKQ+vefWHHyHSLFdAlwbI5CevOGY7mLjB5011H7vcz9x9lYTgfFm2IpebFuYTMH9rQ+oJDap5Zu4zdbVlszOjNzEpmD8fa/zXDzqrXdZ44ZjCzIoqyWNt0QWwvBlbeeJ4MfZOfkkGdkwbTcf56Ah3Ia6+/eKUL7BnW3gkeA7Dx11K2wghaHnXg7L5ii4Ns4B8LWG+yvJfeFhuqvjYsHTRjkFuz2auSsRCQzG9foX+MYFmK3rFQ8Z2ZkDQ1SbE95LoF9A3Lce+7qtTssRFAypJZMYMIijEbV2B7EdpK+k2uCS90sBiT/k91Q04x0c89JXYdzYyoSlEB6i1mHtPC54kPptvnK1N5ngK8obm4fp2j9tMTGoUNYlo5JRy+OlmKhTL2lmgOSDu/B3iHdXHAL9N41KJtufIJxP48X/UbmYR3j1kUZNAyYZAlZX/IHd/OkQy7MRmBBvkq9dw=="
+            }
+          },
+          "description_text" : "##  Задание 1.1\n\nДописать недостающие части функций, а именно реализовать представленные формулы.\n#### Пример 1\n$$\\frac{c -\\frac{d}{5} +\\sqrt{321}}{1+a\\cdot 3}$$\n#### Пример 2\n$$\\frac{ \\lg \\frac{c}{3}-d+25}{a\\cdot 5-1}$$\n#### Пример 3\n$$\\frac{\\frac{c}{2}+ \\ln d-35}{a\\cdot 5+1}$$\n#### Пример 4\n$$\\frac{ \\tan c+\\frac{d}{32}}{\\frac{a}{3}+1}$$\n#### Пример 5\n$$\\frac{\\frac{c}{5}-d+1}{c+ \\tan (2*a)}$$\n#### Пример 6\n$$\\frac{ \\sqrt{25*c}+d-3 }{d-a\\cdot a+1}$$\n#### Пример 7\n$$\\frac{5\\cdot  \\lg c+3\\cdot d-32 }{a\\cdot a+1}$$\n#### Пример 8\n$$\\frac{c \\cdot d- \\ln (4 \\cdot 3 \\cdot a)}{c+a-1}$$",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 732045953,
+          "name" : "Условные операторы",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "/z13biVKmZ7sipSIAPIVhznkxIV6P7QjN8mG5zV+D5YFMR786AC0Xc10kKV0apYEt0rrCHBfG5meM5z8SpOnWdQcV1A1OYZxAYXmEcuM2I00gcOYLQ8FFL0mGJWziHtIMCch6nRxqLHjzOzu5z9aRp6wE8La5Stovawgf6EHNmFLKdYRSk1EGW+8REuJuywtgvZBH2+9C63xSkbrdmluvxnH0xWAmhpSIpzhZ3Uh2EPUqBLINESnQeDME8AN341UxWH04tc61ydf2CAUzEx3QDuqlJb7fytbXYrLjSHhG2ie1FEnzHZ2Cs6i14/zmFG4ZQTSTSQGwL0zFOzSDW0Os5xzmvn42QpjFFNZubTS8dkiBqPZOFGT2Y75IUFxqi7tU7ez/Bz/jjjoKld4bMsD+mz4v5wRhfUcQVedsTpN0dJN3kd/qaTBaFkQYjA01ahR"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "## Условные операторы\n\nУсловные операторы необходимы для того что бы разделить нашу программу на\nнекоторые части (ветви). \n\nВ **Python** нет {} - разделяющих блоки кода, для этого\nиспользуются отступы для каждого блока. Один отступ это четыре пробела, или tab.\n\nПример работы:\n\n    if number>100:\n        print(\"Это число больше 100\")\n    elif namber == 100:\n        print(\"Это число равно 100\")\n    else:\n        print(\"Это число меньше 100\")\n\nВнутрь оператора if может быть вложен другой оператор if, и таких вложений\nможет быть сколь угодно много.\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1088136035,
+          "name" : "Задание 1.2",
+          "files" : {
+            "task.py" : {
+              "name" : "task.py",
+              "placeholders" : [
+                {
+                  "offset" : 33,
+                  "length" : 6,
+                  "possible_answer" : "PXNohf98r8baGAWz0WMPaw==",
+                  "placeholder_text" : "# TODO"
+                },
+                {
+                  "offset" : 86,
+                  "length" : 6,
+                  "possible_answer" : "PXNohf98r8baGAWz0WMPaw==",
+                  "placeholder_text" : "# TODO"
+                },
+                {
+                  "offset" : 139,
+                  "length" : 6,
+                  "possible_answer" : "PXNohf98r8baGAWz0WMPaw==",
+                  "placeholder_text" : "# TODO"
+                },
+                {
+                  "offset" : 192,
+                  "length" : 6,
+                  "possible_answer" : "PXNohf98r8baGAWz0WMPaw==",
+                  "placeholder_text" : "# TODO"
+                },
+                {
+                  "offset" : 245,
+                  "length" : 6,
+                  "possible_answer" : "PXNohf98r8baGAWz0WMPaw==",
+                  "placeholder_text" : "# TODO"
+                },
+                {
+                  "offset" : 298,
+                  "length" : 6,
+                  "possible_answer" : "PXNohf98r8baGAWz0WMPaw==",
+                  "placeholder_text" : "# TODO"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "JrzofjUamUFCNd6xblui2/ve1j35OBscYyWxAc6AOu/dCCTZaGzRlSgiz10KTmmjScL2OV0eJwm3mmxtc7HKpYobj8lBrt6ZTaeHYq3coCf5+GWVQ/GIM4FLNxCk7mwD+SUMrQCZGQ4f6eXcRrPXdXR9MBhcQFOKSH9OcYKFpk5j2KNpjQZdKtN7NpvLonMmYq0H2PNdbS4ke7sj9E00ePv8sSYnuJGdCjntUG8NV0x2Me8KQBZNzdV/rsJx0hNjfRsHzDx78o0osPv143PgfEBsT2uskBDhQmC3CFzaylmf3aF2Vf4T/ESGfSVhIfXrq0O7GKcAV88wb0gTCHrlt4KyAxrR/LEiUZje+FeUko9/W4+FmlJTG7dFBwkg38AtgPOktdavZxXA7BzWJlld1DNjf5g0+cghe9XCPy+/dUtiX/hW7PvGS5gUPxIm/ScALVvK8Hz9mTFso/OuNI9mkzs0ZBSMc1wA+vdtWfZwyOU="
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "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"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "##  Задание 1.2\n\nИспользовав условные операторы реализовать представленные примеры.\n#### Пример 1\n$$X = \\begin{equation*}\n\\begin{cases}\n \\sqrt{a\\cdot b}-3 ,если\\: a>b, \\newline\n \\lg 2, если\\:a=b, \\newline\n \\frac {\\ln ( a^3+1)}{b} , если\\:a<b,\n\\end{cases}\n\\end{equation*}$$\n#### Пример 2\n$$X = \\begin{equation*}\n\\begin{cases}\n \\tan \\frac {a}{b}+1,если\\: a<b, \\newline\n \\tan -1, если\\:a=b, \\newline\n \\frac { \\sqrt{a \\cdot b-5} }{a} , если\\:a>b,\n\\end{cases}\n\\end{equation*}$$\n\n#### Пример 3\n$$X = \\begin{equation*}\n\\begin{cases}\n \\lg (a\\cdot b)+21,если\\: a>b, \\newline\n \\tan -5, если\\:a=b, \\newline\n \\ln (3\\cdot \\frac {a}{b})+1, если\\:a<b,\n\\end{cases}\n\\end{equation*}$$\n\n#### Пример 4\n$$X = \\begin{equation*}\n\\begin{cases}\n \\sqrt{a \\cdot b-1} ,если\\: a>b, \\newline\n \\lg 255, если\\:a=b, \\newline\n \\frac { \\tan (a-5)}{b}, если\\:a<b,\n\\end{cases}\n\\end{equation*}$$\n\n#### Пример 5\n$$X = \\begin{equation*}\n\\begin{cases}\n \\ln \\frac {a}{b}+31,если\\: a>b, \\newline\n \\tan -25, если\\:a=b, \\newline\n \\frac { \\cos (a\\cdot 5-1)}{a}, если\\:a<b,\n\\end{cases}\n\\end{equation*}$$\n\n#### Пример 6\n$$X = \\begin{equation*}\n\\begin{cases}\n \\sqrt{\\frac {b}{a}+1} ,если\\: a<b, \\newline\n \\sqrt{25} , если\\:a=b, \\newline\n \\frac { \\lg (a^3-5)}{b}, если\\:a>b,\n\\end{cases}\n\\end{equation*}$$",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 1780229605,
+          "name" : "Цикл While",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "LTaVCafK/3ABh1H0DMFmezgIEtXl3VN19JfXe+sxJhfMPFh+mZ13A31C2h36fQKaIv84Njqkj/oQGywGlWLMNukpx64JabHxfPaJ9JgJsZ56198u9d9GQtBajXWhFx4cHEb3FblADlK2Ygcf8lnk/Odn8iLNyM2RQbmF7Z19al2wZN2uSZib2U8dND7QNAMTQgormvZIeZ1Bwws4Hjee+KP0kEbGDGLUnEDzJs5yOEiPIJrs21OsMrUIc6Z0e0e1f0TVG8uVSFMOt9EJvFnOfcz6g9VpGLAmWytOOJcIQSFiMyDz7tozT3rfjL+WciyOm1VpUoK+pDcg7Q2oknQP+fdx4izAozbpoMOwcZKX0S/lccX2nonRheRJY/ZYll5rxN4wqp1ATx8CIWGK+syi0aohA7VKVq5yOyYwAO/Qjj5/kwdriVSCbsz2fPxk6XPFbC5k3HKUbHlXB0aguR+6g+jwWo4uXfmCpTj+1rYveMUVxURxn1kd8mZBWNgU+SYW1CCZW99lwfUPba6AuNNKm0U4FQGyqT4fLfP9X5XfNZoqf5CMz7QivbYNn+bbZb3QmXfyuUy1bzWwVRpiJ2djnY3x4NK2ogUCJeG15pNyIgmCx8DcbzNyXqtAuOI1Ub8DHGrUhGAHUM+QPYyYCuT0Z6PQsp+3sbDjvr6RymQTcQRdzRMvYQoHWlsAm6ik76p28m8elyiptYpxsDSuPCRAKTsAVeDTbYfmopn87+Rb/mULoakOAJXo87L7WltotDrZl+GfU+kFaU9ZfrXfsMp05eoKoqh0yUooG5lLW3hu1Q0="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "## Циклы\n\nЦикл — разновидность управляющей конструкции в высокоуровневых языках программирования,\nпредназначенная для организации многократного исполнения набора инструкций. \n\n<https://ru.wikipedia.org/wiki/%D0%A6%D0%B8%D0%BA%D0%BB_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)>\n\n\nПростыми словами циклы это когда мы выполняем одни и те же действия несколько раз.\n\nПримеры из жизни:\n- Изучать **Python** пока не станете классным специалистом\n- Печь пирожки пока есть тесто\n- Гулять пока молодой\n\n### Цикл While\n\nЦикл While называется циклом с условием. Пока выполняется какое-то условие, мы выполняем действия.\n\n    while условие:\n\n        действие_1\n        жействие_2\n        ...\n\n### break\n\nКонструкция break позволяет выходить из цикла, и неважно выполнилось ли условие цикла или нет.\n\n### continue\nКонструкция continue позволяет переходить на следующую итерацию цикла.\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1129534861,
+          "name" : "Задание 1.3",
+          "files" : {
+            "task.py" : {
+              "name" : "task.py",
+              "placeholders" : [
+                {
+                  "offset" : 30,
+                  "length" : 6,
+                  "possible_answer" : "PXNohf98r8baGAWz0WMPaw==",
+                  "placeholder_text" : "# TODO"
+                },
+                {
+                  "offset" : 83,
+                  "length" : 6,
+                  "possible_answer" : "PXNohf98r8baGAWz0WMPaw==",
+                  "placeholder_text" : "# TODO"
+                },
+                {
+                  "offset" : 133,
+                  "length" : 6,
+                  "possible_answer" : "PXNohf98r8baGAWz0WMPaw==",
+                  "placeholder_text" : "# TODO"
+                },
+                {
+                  "offset" : 186,
+                  "length" : 6,
+                  "possible_answer" : "PXNohf98r8baGAWz0WMPaw==",
+                  "placeholder_text" : "# TODO"
+                },
+                {
+                  "offset" : 239,
+                  "length" : 6,
+                  "possible_answer" : "PXNohf98r8baGAWz0WMPaw==",
+                  "placeholder_text" : "# TODO"
+                },
+                {
+                  "offset" : 289,
+                  "length" : 6,
+                  "possible_answer" : "PXNohf98r8baGAWz0WMPaw==",
+                  "placeholder_text" : "# TODO"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "JrzofjUamUFCNd6xblui20xdVXt0XTezPcMBa7WlpiFAVQ3vP+ba4lQ5sLTQk83bmDFNWW+3dSJxFadwbnwtMgCIEqFd7pAU4VOdSAkT93nF73X9Yrl9iRfP6QhCaqZZvq+lj4L8HMgRonk27yCZgxn2inpmkFm344nx9iSX2W5hTdJRaQGSGBFWq2AwpOw4/oEwu3q4UnlntH0YGcJQZaPNivID2gdB/5RCJXLub6ukMve84Db9LL4JJJj77QNtJv/6d0Riir2rQVo8Jifb25urSdKkvfiEVvGYZUjZsWBxb0C1TxVihgAKsv9Jy95PYeS4mVaS777PUp+1oOCYMZ3PrIuKRUky2Gj5RGS65KxqEwJtx4WruR9jJrRCDer/J1ulkLV8pNWJFDiOqOmWUxpsWxwrck5rIz/+otRshHTNi3dledWBz9ajPqHPE7jtHISJjjJdIrTGdTQ4PofVeg=="
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "XIlL2u+4gqNTqO7La77Ydc1Ef6uzaOuPVESSBgkHh0pyn1Ikti7rrTnkfp9BU/VHAmXD2RShwforztu+Gfo68jkfraMJMHw4lNDMFOMtX27rrTMwXrW0ipJx1fCltbJoAKvw9hhTc/GKQy9U0W5cdrrwke6ZYRvXzAJr1PZlpzTIeYSNMXs96c7W/2SJRqc2a9CB0ltejNHklKZYV+++pggzuVTB3upHeR9U7S/+2nTS3yvXEm/Fr3XWRpchpnIek2lAfKpSiiMDXO4fFkcYruTGQ2fP19bLLmdAqHcSllEO6ASUAhsEqAS9y+7OzPxiI5O4a7htxtoswQjVg+ZwtUQ7TaK7nqW2g6K1sxumywTYQVfZzBtoFuvSeH3PfT5ILZfQFKpVk/dayQAdwE39SAFd7/uFOrrS9xyrx1eqth5ZiD97leaievYavvNLCYC9jY9cPuptrJw6ZPSmKEktobhWVgTawtMY/wrSxbeSxNuXxTTP9lHvNGSgTs1rVEgwDl2tYICycLIQ/0EhrCAtz7vBqR6t6h7x2Hid83jiTRi+Z9is6C6Hi4WZls6Ez7YR8ctoUlDpJLq8rhlXJSbQsmR4FHQ2O5NZowmLG9OykiejeJ/8VrA+SpQnTZ+4Q3nI0dN5Mz0RBh6KL3ALOPXg3e4NnMKWdGWXoYYvWbtCb3iTEsrT06Pn2LsWJkn5LlVpjBa0LaYlaN1i6evQkajyUoK/jIqMIbGKFBq6gDZlrZr9EvFPDPmgfu3OvHvLEiiN5nhgyJ+0FgSLyhmU1h35Rem3LgiovSdykaJFZ+fnpw+b8qIEwId6aqFex5mPlMvQjb5OuAm/dWdmmAeyJiBflyFUIZIcq/8wZZSFGYpnuvot/Ta5Tto0tj+CnMDf5m/YRkgifThpZDFYnxRGrF8foLy322DRttz2x2p4rFzQP0WaW45XPA3P5Va5bcWWxlBXeCIrg87CN9USZ/RUOebPkTeHP3vOGG5grrIbntDNFiEXIB+gTvMMItcdOvqrUXqeX2jueAmWtuJmFxp3edGhRG/93kLCB6udqb5boTPpSNFOBOaFGu73F5aHfxQsf5fXfwH1jXSlMQg5g+J6DQ5Rhmn8JBp83uSyxqaznnh2m/AdcPfUta1W+79Eb4N0kaeaVavTUy2nAZKtn1jRL01vYQX9VD2eV6IMsylQ5oPmm45beYWJ1J+0LqVYO6RMNykdb2JpDqvjfGVYcaaVTcSUdAt4tlPu1kowIrWv3BvIctSryxrE3+raCgTRG7GRtB3Hsou5kxhBDGRT8Sc/+NHNlidB7UgIoq4TNy1sSEOmhkYhTD2LRl+BbwVlrCdVwDeLGARujdPPiTTxzHDhTKSKIjxrdrLiC7NFDUaoaBTXP5YIZXzBx0OLy8yPsdiRTYlMffBTxx81n7YTa6hpgelq4hk2vydf6N6tABW6ib3yJUDDFhaZonB7d1p+ro5t5G5T"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "##  Задание 1.3\n\nИспользовав цикл while реализовать представленные примеры.\n#### Пример 1\n\n$$X = 1+\\frac {1}{2}+\\frac {1}{3}+...+\\frac {1}{10}$$\n#### Пример 2\n$$Y = x+\\frac {x}{3}+\\frac {x}{5}+...+\\frac {x}{17}$$\n#### Пример 3\n$$Y = n! = 1\\cdot 2\\cdot 3\\cdot ... \\cdot n$$\n#### Пример 4\n$$Z = \\prod\\limits_{i = 2}^9  \\frac{x+i}{i}$$\n#### Пример 5\n$$Y = 1+\\frac{x}{2}+\\frac{x2}{4}+\\frac{x3}{6}+...+\\frac{xi}{2i}+...+\\frac{x9}{18}$$\n#### Пример 6\n$$Z = 2 * 4 * 6 * 8 * ... * 20$$\n",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        }
+      ],
+      "type" : "lesson"
+    },
+    {
+      "id" : 1302025050,
+      "title" : "Эпизод 2. Основы",
+      "task_list" : [
+        {
+          "id" : 1517142576,
+          "name" : "Строки",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "D0v7hToXvnH9zYf6CFFcgY6a2gMKZkHm9aMXQtTQlIMXlI6pCi+GUi/cKDmC5P7HzPQepXSFFKrKlH2NA9HFNzIGsWK3qpVR57GAmkZ7yxFxx9mvtVQHOdYxc8XpQU5VKVjhhjvor5oJz/sBjLni/IoNQ2robZ8LeXKr3tTYMn8ZFvdjN6Zg5A4a+m9SAOp9ocsbXKhuy/Dfxw657xfAM/bfTQt8ZOzX3PZ1motSClMurEDYlvR6/E6xJHNHVZpUOwpfS9F8cJ9km4f0BJCn2HtGpmpUYls7oJ4/kPCUFDAtfykuthKVUXusUQOPJt30DCThr2+EiOFkkw5Sv6/uiDmuEnmGr+zYEI8X223ZlUQ="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "### Строки\n\nСтроки в **Python** - упорядоченные последовательности символов, используемые для хранения и \nпредставления текстовой информации, поэтому с помощью строк можно работать со всем, \nчто может быть представлено в текстовой форме.\n\nСтроки в **Python** можно записать так:\n\n    str = 'Hello'\n    str = \"Hello\"\nРазницы между апострофами и кавычками нет, можете использовать и та и так.\n\nСтрока состоит из набора символов, при этом любой символ можно получить по его индексу.\n\n    a = str[i]\nВ **Python** индексы начинаются с 0, а также можно использовать отрицательные индексы.\n\n    b = str[-3]\n\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 245528352,
+          "name" : "Срезы. Методы.",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "LTaVCafK/3ABh1H0DMFme/aotk5IGFZmloPsb+HNvI4lQ6RCby1WUz08onTwG6rTxoXYEhgvONad3JcV6oWYfx2/N/Kn6BPk5E/PwjXmRYe7mKJG3MktZTByWrwLKSY59kNJmqqRGIz6ws4wsplQA9H0dHF6LGMqHxrtzOOPnOfwQYNaIBIEGMHchRRf6b2oucXaZ/QJhEazwA+X4uDXGxlSq19jyBQ8miyb3IwWWq1lNruv2koQX2QKdJ7abGbHgTXT8HNfR8W4K3GT+a1N84o8rTFGVDAFz4rIh2lvHsbKBYIPtDwNHF9s+fN8dlLcXxwHzOg7Cyh1BMt4jFZnMvZQXC/7o/usUGaFan3U9l5ch4Wy8YlcSRrvbvzJ78Od"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "## Срезы\n\nС помощью срезов можно получить несколько символов в строке. \n\n    str[start:end]\n    str[3:6]\nstart - с какого символа;\n\nend - по какой символ.\n\nМожно не указывать в срезе начало или конец, например.\n    \n    str[:3]\n    str[2:]\n\n###  Функции\n\nВ  **Python** существует множество методов работы со строками, часто используемые\nпредставлены в примере.\n\nОстальные методы вы можете посмотреть тут.\n<https://docs.python.org/3/library/stdtypes.html#str>",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 940043062,
+          "name" : "Форматирование строк",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "oNbTTOikAJ4ZxTgl7tN8sT+rgwLPNZefCcrcmmD8sRtV0Vdy/QSPCapIph+tKOxZHiyktPEL5mePkNl0EFSIUan+rqcXNK9wF14vJLMM2skWyQi9Ge6HfhPKA3uozOBUVgz/fHPZtTAKAVTdw52A5nAQ0zlTwHMTGUivQCoEIY64rJmB9viikJTtXkpwUykelu4BVhqcGGSwU7AftMCzjIGI3stl6TyllCb1cp843s7uksfYfscP4FWsmDXJKZG0CaWsp+TXYFaABF0/nBq//w=="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "##  Форматирование строк\n\nСуществует несколько различных способов форматирования строк.\n\n- Конкатенация\n- %\n- format\n\n###Конкатенация \nДанный способ нечасто используется так как необходимо помнить о пробелах в словах.\n\n### %\n\nЗнак **%** ставится для объединения строки с переменными. %s ставится для вставки строковых \nпеременных, а %d для числовых.\n\n### Функция format\n\nДанная функция также используется для объединения строки и переменных. Место где будут вставлены\nпеременные обозначается {}.",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 978103769,
+          "name" : "Списки",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "cD74o6lAolf9UMxf5wBRc/CbfjxcI79Yfu/aRmdoYGgv24HfWVKNIDucdMNIe4N8LhMA95hvFsF5jbmb63251yqjYQKtWQsb/wMX6z7C5/gPbi0qzMfPdX1ugWxXMaNgtYRO5ItlKM9SIrFqsdbHFtJV4d5omyRwrV2MKxJZ6uDh73Eoea65zxBzOAovZBfIe5FtQFx0JyjK8rAnxAsiPzNhSLOF1SfiHJmPq2Pt/WoCqvDicqVZuvgbGdw8XjXf"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "## Списки\nСписки это упорядоченные изменяемые коллекции объектов произвольных типов.\n\nНапример:\n\n    this_list = [ 1, 4.5, 'Sam']\nВ основном в списках хранят объекты одно типа:\n\n    group_list = ['Sam', 'John', 'Степан']\n\n### Различные методы списков\n\n- len(group_list) - возвращает длину списка\n- group_list.append('Gary')  - добавляет новый элемент\n- group_list.pop() - удаляет последний элемент и возвращает его\n- group_list.clear() - очищает весь список\n- group_list.remove('Sam') - удаляет объект из списка\n- del group_list[1] - удаляет элемент по индексу\n\n### Оператор in \n\nПозволяет проверить наличие элемента в списке, результатом является True или False.\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 243565794,
+          "name" : "Кортежи",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "SK1h6yS2YHeiHhLdZ6F7SZj8vi9eZ/qhswKPFrbRoymVDRTi8ElLsnJJWMoxU1tKJxd9la0O7GD6DXzojxB7/WTuuD80jARBvsSCrHEBKz/gZceuzebB7P+CfovolOF08PxoxAXovrKhQIQGHMNCng1z8XGQ2buE1bsjln/HWJHyyamVci0/BO6dkCu3sH3WEp1TI6Q/5DozkSKm2LCBtRli84wx0N7vrOzSBmOzcj2/ihyDbZ7pAUiR1FY1cpZmiGgt+T9dnGUUyw1mtUv8eoyhTIh4LMzkiFRK244ltmee3XxdfOzzx9TE6Mqv4/MedR2EU1Cq2ePVR7/OfO696Q=="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "## Кортежи (tuples)\n\nКортежи это еще одна структура данных в **Python**, но в отличие от списков является неизменяемой.\nКортежи записываются в круглых скобках.\n\n    group = ('Sam', 'John', 'Иннокентий')\n\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 327346533,
+          "name" : "Цикл for",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "N6OlFN3m7/WyeHWirjlEJvG2iagh+eLKVHd9mTW7VpJHbBR224g4pk6tU/zahpD21ucjYTn3Prwr3B7Uze5PbclDpcmJ7L2zkiZQjeGlgLn64P5UEKUtxTZr1VpL7NZpDSOTvsIo+9aCRBMLToH9IGwn46DKQcq+CZFmp4f1ukbt1tAoN9+hUjb8D5p4OAiI5pYW0NWYpuWJo4MHtAWgGnHrzd1i+iMkzmEzpI00puHzxGB3CcLzE8tmudDBCh3WIzD4NHnTjS5Hj5FoDYPDMufmpyBPCXOJJkFHTDmCerQvt/CFufSFOBf2VzBzc+52Q/R+GU9/FVogFShCyTfoaRy2QMwnKYV5y5HgvqGEUWmSURCzOs8jvnS7yzpQsMowLUaoCq3Ev46D3DR28+OilQ05w6GdRQhp7grOybnoHMf6YrSz9jPUVMAIJyoYNdi94vySMX0VYTtu5KZ7e6SZktTo7DtJqAjSG3yYzLGRxfCKfj6Mvg5RejU7IvjpedYwim6dkIDMpfZCxCfIqRFyWi2kPry/KatD1tIJ0aG9AsnF0fVMqMw0+myGGl1C08pfYraKwq4KyQk/M4hLM0YmWQ=="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "##  Цикл for\n\nЦикл **for** немного сложнее в реализации чем цикл while, но выполняется быстрее. Данным циклом \nможно пройти по любому итерируемому объекту, строке списку и т.д.\n\nДанный цикл позволяет перебирать элементы без указания индекса.\n\n    for item in items:\n        print(item)\n\n### Функция range\nДанная функция позволяет создавать последовательности целых чисел, чаще всего используется с циклом\nfor.\n\nФункция range имеет 3 параметра:\n\n- начало или конец последовательности\n- конец последовательности\n- шаг последовательности\n\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 349957752,
+          "name" : "Задание 2.1",
+          "files" : {
+            "task.py" : {
+              "name" : "task.py",
+              "placeholders" : [
+                {
+                  "offset" : 19,
+                  "length" : 6,
+                  "possible_answer" : "PXNohf98r8baGAWz0WMPaw==",
+                  "placeholder_text" : "# TODO"
+                },
+                {
+                  "offset" : 58,
+                  "length" : 6,
+                  "possible_answer" : "PXNohf98r8baGAWz0WMPaw==",
+                  "placeholder_text" : "# TODO"
+                },
+                {
+                  "offset" : 97,
+                  "length" : 6,
+                  "possible_answer" : "PXNohf98r8baGAWz0WMPaw==",
+                  "placeholder_text" : "# TODO"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "F2fM2twCsK5dTdaod91tj+ZuqjZ4YZ4vSJd5x/Jz8acZVyvnC7h+74BB5BLcA+GzmmXeu/RxSr9ZDpHcvDdd8VL9tIMniNRwu89v2zfpf9CYfX75/ohti8ycqJL6dSjUIlVNsFD9vUF3G1MstfVna9FrDeiaPK2vq8DUgUWI+GI="
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "XIlL2u+4gqNTqO7La77YdeUkhBIeRDI5+G6nru+gWkwUxt5Djqxrtsd4UG/cRPO+6xPOr5aEYEomsFNHg8VWhtKgQLd1pGlU71grl79ZGQzPqW+OkugjZVPT+/O5V8hl3niSJ01kHUHKH21kc9zSfGzyCshewlJiS2Qn4op1Gc201ydJqq1ZgYy6wizG2Nqy7lrkOJOwIZhn+TJdOpCT/Q0R1KfGuShZXcM80B1Yk25nhBdrtxo2o/kyvj52yrqjdVzhQ4lPycQL2ixgJxzg3U3i3iHxvrjaR+CJwQ9soCoAUC7MiSWmJ0LVrfI+/m/ULR/SQ21rVqsYJFP7Jz+Zd3dwWQougPPD/M3j6ZxdhR2qWXE8w9Jz/M+1CokXX24SBLgkaDP+5hRUxoTBhcNU/KTF9TBEbEOklun3GDKa+5Ko02hcAmlLPk/NhGlFmxOJyQ4/5ApxGTcDexwYvKa8ISsCwNUa2ka4IVt2VGvfQEiipEMvKe6sAItrhYrNq7A7RPwFAijgBx18TyFmpgPXzpNLzNZ25ZssOPlybPMIepz5OfbWH9GybDcSKrlqgF4zHKYI//lHBd3QXrJ3TK/MnwFwj2Wf6cEAPzdEVYc8yoGkmewx9BVmfba42vRBiWyr5GWV6F4v60rNWdhgpJjkZo1gGL98dBKX38oPwkF3QCHDQWb489KdptAaQNmCfBMlVsrlbTprp0ID9vBnOxcWSpMAGOcUVJMl1u//8R0jl2a6gdAlIyNOMU3Xw0UqmNS5QGP+5IEzv/1iyByBpkXZWhAiiHcjeBuLsrX+/bblxNX/Z6r3Ns86n6cwPKqEpDh++wqhXkM6ue6XWzpHTm4x9SFjAOhJvB0ArUdBITOL7hOUGdr0orOl92Tqc7OueMvlOqHeqdyhXJAT2n+q+npDwozGWtAPNtzvYaWWQqhHyEn6WJ7IN97KhI92vbeSUJDAWAEycgJkHTxG3g48csxzYUbhn7H9m7wyA/FtJIwpYYqsK965BqjSUIUUF90FMuoSCPrpMdunu03KXxdN4Lt97+gHhn62DLIG9PzTgYOCuLG6QMu5oRM44zsSCJIIpnKKENJMqgC5EklmZfoouXT4h4e6dTS1/sXSeejUdSsvdLsXN0ooAHSW+/L59GmiK9N+4EBuQO4BtkDh+HscYB5m4LlPNEeXrQp0Cm8NquOXp131+ZWrA08S9+o+xxXr0Rn+dfiLnrVHZq/IcPvmeHpPOMeuh53w+nPin0yEIxkqHOp5rZVC7Mh47YlgZ6qbow9MkLBNKxqdaCwJ1V2PUUO1eYqdKvQ7DP3gS60b89raKvk="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "##  Задание 2.1\n\n\n#### Пример 1\nНайти факториал заданного числа N\n#### Пример 2\nНайти N-ый член последовательности Фибоначчи.\nПро числа Фибоначчи можно почитать здесь:\nhttps://ru.wikipedia.org/wiki/%D0%A7%D0%B8%D1%81%D0%BB%D0%B0_%D0%A4%D0%B8%D0%B1%D0%BE%D0%BD%D0%B0%D1%87%D1%87%D0%B8\n\n#### Пример 3\nНайти все положительные делители числа N, результат представить в виде списка \nв порядке возрастания.",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 1260825439,
+          "name" : "Задание 2.2",
+          "files" : {
+            "task.py" : {
+              "name" : "task.py",
+              "placeholders" : [
+                {
+                  "offset" : 30,
+                  "length" : 6,
+                  "possible_answer" : "PXNohf98r8baGAWz0WMPaw==",
+                  "placeholder_text" : "# TODO"
+                },
+                {
+                  "offset" : 80,
+                  "length" : 6,
+                  "possible_answer" : "PXNohf98r8baGAWz0WMPaw==",
+                  "placeholder_text" : "# TODO"
+                },
+                {
+                  "offset" : 130,
+                  "length" : 6,
+                  "possible_answer" : "PXNohf98r8baGAWz0WMPaw==",
+                  "placeholder_text" : "# TODO"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "JrzofjUamUFCNd6xblui22LsLIhH+LU9XKijVftMIr7RnhnxVoIRQQTKe3Dq0C2+vTqPXQo6Wd/I0C0Mg5N7D3RwTFcXvNdOJhNY1c4h/vvKWrztdtLsxmdFoKyH4gKKFKUpVE7DYlMzfwhhIMlB+KYCt/64XlTdjnSfu30q24LQYV4JjyQjcs81tX21RFj76NLhqaW5DMnKTl9f+WHwHOBHdcHczmQWlDg7BJZszS4="
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "XIlL2u+4gqNTqO7La77YdR78EZwM7bn/UG6n6k6jYLQR1JWmsq5SO+Gsg74GX9QPg2GlSUAOAiMrAic2j90mKi/Tu0cduWzWTOCnvqWNbLXqahIYTwEsP3v61LI5pgNMJlqhTOi53bKfnWB/Miix1Rli5hJnlpIi0DZQ6mNVtLoxlLzR7KvH98n4MT5Yb4lgJKeX4UQSIustSnnDFhGEuNKtWheeCq+BK3chMaorReuhqL5XKFFACX3yJhwSoHRp0pXy9BTSVpAEpFW26g1lfAATFLRpeOLHvb9JJNHis04JKoFZMdrDmImwOiK3k7hJWmHmH3hnaw1BwP7CiA7ORmQy83cl9JhL3EmcspTDlb8yyuZFwzjFfupNA2inhF7s2SUd0HqPsgDMCLHGDkIk7R3OaR3s7RXcWFLFw0wngg7hLcDqDw7nC7Fscid0NvVv7uqMlABsj/Zcjsm8MzzurpBoxRQ3VLOuhka7YLAzXu/DVX7UdMdIyuwkNuvpoZIP2jf2nPuhvsX4SBJjfz0dDiuoQjPKcIf/7sUdYPfJmcthk3I3xg9TO0spFHAJ4ZTiDanMu2y9XClcF0B+SFSHwY7QBsRkjb40IbWbircs07dO6cU+TZf6RQ5lMvb8RiluHIb5dyOl3byAaYJmo03chd5EJqAVCUh+rqftZJS0xOzbBQdc/6NmM8uGVVbMipiYHROI7W0OXXHoEo4E9e7IvbJhEXQrmkPvtpEgvx/VG4iX8LIuREJYUGirHQqNp0vrcUWyYIrBuzphwCVtXgzdzYlfAj4FVVOD5fBj10CiIsD8ijQ0N1cGOf4gRGlyQV2uhBlVxgMJ6AAuR5gjAplfi7kAebda9lebnbVFU7E7ua+HqM12m67/G3hkwpwyBDnIUxkCW6hzRQb6KIdkkv/y0l2CNAI4IvqySc4N7FIaDaaKAcyNfeGOCCx5p8QNoYJuFfWQmtZ8v9JMz4ET1cyOkxS63HhYNxRzCUIxAGydnEQRpV4uak3PMDShSRyok45WsbkQs4ahNtnWH7+J7Gk/8FU4tNdDi4VZp3l8Jk1z/IFaOsqUhhd7P938Ypo+pDuiZZF+90bBwHgC7wnFCOUJxrV/Gh06pBX+YSlIcC2YklH0cwXqyIby/wCoghB/sYfqUSaJoweTlWqeRUdx4eWf1nHjxbC/g2F3psWZmn5CWOhBFjfIYchnVbfumr51csJEGxs2g3DcxBX7UmuEPYYUIRCsNJQm+CF3hNv7LUtxQwCf9HGzzhCop6hD6VTmfwCgjbh6bErHdcCbOumGBx+7eIYR7wFK/N8coKXhwwjvHzQ="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "##  Задание 2.2\n\n#### Пример 1\nДан список А, состоящий из N элементов. Найти сумму всех\nположительных элементов.\n#### Пример 2\nДан список А, состоящий из N элементов. Найти среднее\nарифметическое элементов этого списка.\n#### Пример 3\nДан список А, состоящий из N элементов. Найти\nсреднеквадратическое отклонение элементов данного списка.",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 1638892877,
+          "name" : "Задание 2.3",
+          "files" : {
+            "task.py" : {
+              "name" : "task.py",
+              "placeholders" : [
+                {
+                  "offset" : 62,
+                  "length" : 6,
+                  "possible_answer" : "PXNohf98r8baGAWz0WMPaw==",
+                  "placeholder_text" : "# TODO"
+                },
+                {
+                  "offset" : 103,
+                  "length" : 6,
+                  "possible_answer" : "PXNohf98r8baGAWz0WMPaw==",
+                  "placeholder_text" : "# TODO"
+                },
+                {
+                  "offset" : 144,
+                  "length" : 6,
+                  "possible_answer" : "PXNohf98r8baGAWz0WMPaw==",
+                  "placeholder_text" : "# TODO"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "jYDdsLbeYzADkRhizR9Kg4f8743FJLgxtWiV2TQv+Ncs23UK1ejILZHerv8GNH+39iR7j6AwpyfmbnNuBOj1QzQGEMtQUfPpvghcNgHnEiHBHbDbRxf+p0FjNkr3u5RZYbffDTwTRDNfGHXmWin/O1uVVBV54Tnm9/+exKoqtttCO7TFvuTkeMGvWWYwCehIIKIGiAJsPV6wr8emHa130G2abTwkCprn4kH2OyWMRFg="
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "XIlL2u+4gqNTqO7La77YdaHX6XuiDqm0uhjjNYWkg5vxHyuunBqz4bBZrAEqUOTSfiYxSLg/r6SDtBhtUzJ6Bmrlnb3ZzhswkxVea7ZrCS6TyhD6fyft5dfrvt9ByvSPvKJ6LydV8NZ8IP9Znd5uahDm5zVt0SGML8H9FVAv8Fj31YErWX7gVcYoT58Udi6HzNvU9hDEFboUEMs8wqw+Lzdf4er0Jtx4VE3sba7WlgnmyHvYfhuCzc0wBnrKyTksObiFHlw6DkyjeHI69vHf2GrDTdGOFUm3yKhEtZNufC1L4z6hIOQDoGTnCHR+kkszUoQDhWhRNUUqp4djPYJ4kGm/cPRtajCUDkLlSL0erDjQI/ej3rAkw8X4jKPCjLi+oB9VTyiPvzMwHlXG6wQOG/l4vdjKk3JNTNVGCKGJeHqLBhAwLSM1OdSQQwPAX+pivgn9ViZf6RVQ0jd5S1gCHBkqCSWh3adtCpUQBfxB27q/MXiiFsvG1FK8m0QbTMr5LsPrbrmIwCgno2b2iyIBvXvezGCBhmLpq/hmIE5n78rhGvTSc/qYmN9CKoZfi2g4M1tZVNCPXvsBTInKbPE+ogRNy+iHoI21tNycZVoY0wGs7Z+GEkilGfuB+WVlcBFGHW3+FzcmnkjHE7gcaoAETP7emoERDPbUvSS1nqWdUbyVN6KiHqjomfCPoR9ctSOQ0rXVCio3xaNSoxIZAEXR/uAFJBhRvvgPtMSkWsbLUeTOSeNtktTwuaFunE4yRXL8NHbp0Ffrd5piuUyKvjYthInfHKQ6oR3SRhOL+sI3Pn40yGTMUrnIhbpLtEJ3v7Wy73aUBFbUNyJzHI9fUiaBsZGf+M/N2fFICPAx0ws3Sd1+zNIPMMNgvav4Lw0ep/RS0u5BpW2lpW16xRhIZeeWMTeVFn6tpdNYAI2ipO+QT4kG7hbQYoTTMJ6m3/F6Xj/Oj0pHwYdtqdWoP0b+tEnH76KZm5Ji7ibV4zkQOQMLkhWHacP5uypB2csNx4Zzyn4jJZztR8ookQb7LHiPwOVOTkig8swiYCFeYz6ZrQKDC+aA/frWvGJ7t7IAU+hiWB10JazLRE6KQRhuQbWTDsEQ72zQb2W2S8XbbEpLeD5kLal1SAEZa3oFPDo3RLq3lz09ngw1S9A2zZwffaMCmAhcUSwh5CJrp3/h+xIP+sqLUPQnc1mezqgZjh3jf/drZC6AcE/zQJfJQMvsUNDOUe8ZpKwDXlitMHgBFx8L4S0BLdRWJ1+Ynu0Yw6Y+8TGYsS5sF+e6V3pU0zeRV62rX7hQbknzYVByavu8EcsLG8h3BC2+ayt1dPutORCakcFkmgvnYvNaGZm2UTw+tdBurhOEaBsAO68793Jzx9x2kLEfQEcDDtGDKYnuawBf3/Qw9Dkl5KC9gHK4krrcWgpGLrG/nO8J/eeP4F+MF5HeYyVPls/RE3kY15EXBkHvAwv5fytylobuod781E4qVs0LAzfpSdDgBrKjSM9eVj4Igx9d5iVLb7RdcgFik+pNjvjZ7S7L+rWT5JQwq9gQmc6+i5j1umKZo59WN2xBkuMy3IIF6BR61AGdy0OrX43WOHvmDtCEhaA7HH86tX/m2R/9UNvEcOIIb3cmWg9iSo8Ndn3X1L08leLgDKehSxj1hxCc120B4ZjDo3v5/giTsC0pX/P6/Akcm0UuC6Xl2rovb784Hjr9fbXSGZTLh4lNkYOK3FtOfZM/JJIqgqPJOYBjxOxH2HYn+Xy4hPgOu8SkYnu01qAPlAGtBXqNpL87wfQJVmXLLmBXemRr9+JY6Vd1Rq2kUKq0gRklGomSsqPYs+VDadk="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "##  Задание 2.3\n\n#### Пример 1\nДано предложение, слова в нем разделены пробелом, подсчитать, \nсколько символов в последнем слове.\n\n#### Пример 2\nДано предложение, слова в нем разделены пробелом, \nпоменять местами четные и нечетные по порядку следования слова.\n\n#### Пример 3\nДано предложение, слова в нем разделены пробелом. Подсчитать количество слов,\nкоторые начинаются с той буквы, которой заканчивается предыдущее слово.",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 1700958684,
+          "name" : "Словари",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "1h9O8qL0WSPXrgF84h61sPpCVD7MVt0pmPiMgfCC9frXdtmsXo8Vo3w0JX63vNgWhhKfugqrlMmhJQ3DBYFeeznZgStl+tMtAkQfK5R6A12Bvn+DNQApaDZkQPHRZnlwcVg6tjVW0qTzAoRN5Efd1CWn0eI/+mHL8s/5xxFsf5AkNWiNXAKThnt3kCk3StPGvLnndMEeWASlKoBkqSi8GKyt3qw4R/6GBabmlqoc7KQtbsS4ukkU5vKWWwTUATV1SGA/zYCBsygjRKzQHD3NW84qGXejF9QB4t2+4iESqvnlDfTN1KkSISndvoA64A40CWb95jqiKLv7JSzkdYzKlBqtN5iJMMhwWT5cmLvfkBnvd9KKDL4bzv9R4ROOl3zcKDS/e9tbH846HHvsoW6aqkGU8hjf5+NG1wSF263oKRn9I+Aldw7umisBg7FloklsWfB99cJHJcrrdNmAbtpQb+W35/6dZUq3fQtmQJvE0gYQrH9ym3geV2esqOoRuewvtif+YF8Atv6OX9SxQ8kBd8nhK4mCQ4wrjWhwAZakv3HhNnQNS6SVeJshTYuSMrP5YKKZTA/RRblXZ3CzWdM5WQd5CslnWr/BsR0nsBZjQbqCPYGnkEf9KwzO21/PhWKcGh6ajEMuakw0bwg1csZx7ALCFzW/lBISz6O9JS7fAV4hB/c3jJogWhek0CmLRbWV2aD+XtOsntPyDGnwr8PZTFgA8/uLVrInX9pE3sph2MOLJOd/MNOhIZxIkINPsDBwcjvOEGuFngJ9sQyO/GkVR7mZ8XsjlhI/Uu8TecFcV9PYQyRCTVw/TPtixVRXbJrIsDnV2omhrV1LFFqAHww07QMEONFgOY9OSMF/2Z8uR6ZPFOinKFrvuNqsCdC9cb/TGgS4Of6nEbNfhs9H5ybG659QKJAhAe+WgPBB80IRepqrD3JMhNZtLFo65CFZz+n5"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "## Словари\nСловари это неупорядоченные коллекции уникальных объектов с доступом по ключу.\nКлючами могут быть любые объекты неизменяемого типа.\nОписываются словари так:\n\n    dict = {'key1': value1, 'key2': value2}\n\nОсновные действия со словарем:\n\n- получение элемента по ключу \n- добавление значения по ключу\n- изменение значения\n- удаление значения\n- оператор in\n\nРабота цикла **for** со словарем.\nВ цикле for можно перебирать отждельно ключи, отдельно значения и пары ключ-значение.\n\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 771820326,
+          "name" : "Множества",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "denxdmiWiz/LyqPLaOuWFB2S6LN4Amm+Au2cp5RaJ2p6A3cPj5Y2zA/MmUwwl1G04iCdggYznngH+j5zz/y6nmeC3IXT2Zt4NWWcW9xgaZFyFbYMguuGABJRgEJpdcJx+Tk2GpKJuBpvvqFpwT0JiA95axqF3n/kx1+iBDRBIu4/uZUWJJK26h3s/nbiL8XCp3WbenmDTQ0pR/RhfEG3qt9ZCk8qlAHbJc9hePrZ75zQWd/NFt75xRwb6sXGO4mf1iyu3mNSIFZ8FxNwPLLXylWawUDFt32iWuhGXi4lhYGsc+JuN5izMd+Epl7Gwn4paOag4sTFip8HQpkgfpi9Db5QnAFp446hQMuBWYjm9YcqumEr8W4XnUrTmiw5QuP07Ss/Ta/EUddnvKRvsE965umnbYxDmoizJKKcPj+94E5A05CvAAiRkqylxHZeIV3oKQy6DPzEFmj7xvEgiZ5GNlPrPQY2VJ4WhyjedZYl4HNdCn66yi/lt9HyjwhfEHuUzoA7eUahV+HdBxU0akfGCjYnd/NrH7fZ+zHj7dAymrKGrKkLY9JjQNt/SNo70fsuXsdtx9XupoPIdu7bpYmKn+T8pfHErRy4Lh9M2SPDqMdXka9CGP0lpS+OkXSZIPso06AKJSQCRjoJu94FRWdVaoFkpd9fO2YPHfYNF7/oZy983/AYj9gzqpzDxO2fBJIYzhTJ6njnvAR/SOjoRCD4aQ=="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "## Множества\nЭто неупорядоченные коллекции содержащие уникальные элементы. Во множестве не может быть 2-х\nодинаковых элементов. Записываются множества как:\n\n    students = {'Ivan', 'Stepan', 'Ingiborga'}\n\nВозможны различные действия со множествами:\n\n- Добавление элемента\n- Удаление элемента\n- Длина множества\n- Оператор in\n- Работа с несколькими множествами\n\nМатематические опреации со множествами:\n- Объединение\n- Пересечение\n- Разность\n\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1350771178,
+          "name" : "Задание 2.4",
+          "files" : {
+            "task.py" : {
+              "name" : "task.py",
+              "placeholders" : [
+                {
+                  "offset" : 21,
+                  "length" : 6,
+                  "possible_answer" : "PXNohf98r8baGAWz0WMPaw==",
+                  "placeholder_text" : "# TODO"
+                },
+                {
+                  "offset" : 63,
+                  "length" : 6,
+                  "possible_answer" : "PXNohf98r8baGAWz0WMPaw==",
+                  "placeholder_text" : "# TODO"
+                },
+                {
+                  "offset" : 107,
+                  "length" : 6,
+                  "possible_answer" : "PXNohf98r8baGAWz0WMPaw==",
+                  "placeholder_text" : "# TODO"
+                },
+                {
+                  "offset" : 149,
+                  "length" : 6,
+                  "possible_answer" : "PXNohf98r8baGAWz0WMPaw==",
+                  "placeholder_text" : "# TODO"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "X/XOGT3OvAD6KYfmkWn4jwi7CAGezcRx34UPbn+JXvwE+p6A+4qLz8Q+ReyF7ZrjT1Unu0ZZsdRCqS3k+BHt2NJikbaYrWrz02udh/l+wr/EBOsHOmVJa0q2kiJRzWe7G/lEMeKz5HAAdQcet8sn0idM1qxSeq37oCxnWwdNeFOmSj//RfvNlIoRJ7GeYHw3yXkDnma/vO/V2XB0EqO7bkN6uWNyW4nZifZyszAK87k="
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "XIlL2u+4gqNTqO7La77YdaHX6XuiDqm0uhjjNYWkg5vxHyuunBqz4bBZrAEqUOTSfiYxSLg/r6SDtBhtUzJ6Bmrlnb3ZzhswkxVea7ZrCS6TyhD6fyft5dfrvt9ByvSPvKJ6LydV8NZ8IP9Znd5uahDm5zVt0SGML8H9FVAv8FjB/IQi5dVO3tRI+fZz4J3y2Up8NrD5a9P/Fw1Wp1nRbAa6HVlPSPDcQg32/Ormg30ROWSTHSP0SNEANDx31Cpm9JFco/Z9BORNoG5KhLpR4asb6jyn+Qk6aBwlwlVx9BgO/E+U98hhd1ObJoV/ZUNPCxqHQ+cEHYtLHCAtFvV6cODrR8fX6DWqr807Aw5cuZ0S1b6kJQJo1SelM8YdRJhCnPRCR+f31FAceb3A6xzzfBsnbLOrLCc/5Zm1t691tS/4Vw96CvjBDObFcK+tI2XUGGxRhKlBfUOKWcP5sV6p2S8iLvdWASzNchXQwOQxTCmmYBfSRmEpHmcuYdIZOzhEOsrqSSOQnhXN83Onx1SVmlqtYVZ/fr1Nk0FtCyB6YtKLpum5j4v4OVk404+RRWhs1NVbdb96U7zxb++JPBSDaZxRnp6pCtqVFLdMtoAdo5DTF3LQY04z/zCQg/OTCROZ4D/E/Zk3GnheqfLWaKMr6cn9RZQ00xlhhdK3uGviUUZQ/61CZ9nUbH+Vtpgt50SgeyDbNRoCgxR71unosqF0Me+7DaQs/v2Q0rQZdbx5UFEPRCV1taUu3KrdBGn/S+iT75o36Fzslm0CxOrvFSQqJYHqXN60qVvo3CAQ4xHylhZij9PgJyFFw4XPtiTI25xzTsdbJq0ILiInngGQ1ksaGsn/RPY1aDNBvylLh2qqdIQUBEQDO1RAcZBsboiQvu75E9Dz7uBlD39fwWz2EoWs9ZwtRifpgUqUJQnAGM7MkerRVpERtT5pkdNq4j2GbIq5QtjhQ2cAx/L1vnbIora4eWfxBfZDSuKWGXizse6VUZIVjn1A4SXRqaLg7zR3spq1D2e15OleCUpQXtBJ2O+Nn92KQNXYseVyFDBs/KnwnQMXW8oQs2vt6TdKpacIGbYHV2ZqghqaoVGFcDkey0M/XRDzSMmnAZDNza9Pc3XB0QBFKcha6OPBhtz0+QyJ3siZtTsAJd3QayT3U2S0kMufhRIcoRgjoP2VaeoR0antKiSAKQLqVbr9bMrz0I6UNUGlZ2ljiz2BelLIUGFrhhB5FGpfLvOrMJo2D3Ew7vyGSMzJ2Qt422Oa0pNeI9PDrpbVdFG6oW0WDmN1rdgOG0Ec6KjnQicMyVJcyt9dudmxYG4="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "##  Задание 2.4\n\n#### Пример 1\nВычислить сколько раз каждая буква встречается в тексте. Результатом должен быть словарь.\n#### Пример 2\nДан список А, состоящий из N элементов. Найти сумму всех\nуникальных элементов.\n\n#### Пример 3\nДан список городов, необходимо создать строку в которой города разделены запятыми и в конце точка.\n\n#### Пример 4\nДаны два списка с числами, необходимо сравнить их и  \nвывести третий список содержащий в себе пересечение этих двух.",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        }
+      ],
+      "type" : "lesson"
+    },
+    {
+      "id" : 1498332230,
+      "title" : "Эпизод 3. Дополнения",
+      "task_list" : [
+        {
+          "id" : 1015465796,
+          "name" : "Функции",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "W+M6emSoNB41mWnKwjscWTIdt88y/2rP+aiNYHIkOQn2lkBKoFBj9RwZ4mkH6JqJ2xN2HQPx0VXx4yqYROOJoR/Um4At5nDHo0xouLNKOSBmHTzvWGgpMU5mRyUgIAXsmWBWL0KaJA8CjzAa6KEWkEyg0l/1Ep2Shlo6ZDvWN0z1RQEYAO/6m1lhcYjKsxryM06K8wgWKxkoI1q5qA0gEDVaZ81uy9P/f+rm+IQiHSLbM/fngfW9nxbBq7sPN5jB1ux5wQh4ukbOrSy00vQm+6V69UqP+eVWmkgskPLPGA78s6yh3RpGUpZqlnM6NEdcFYKO3bYhcwJ732fgsG9uvlIC6eej6sQfsr60WGji+aSqTvLhCmXpGZhBxTP9NdDKeudxpAB0tqX0fMT8z3ATdlm1QcFC12ucXmKmDQIIxDObmC6Hn79RbH4GZao3sj9Kvr/J6X+Hz0q0yxYWPiUwHvCRo2XqJcXCEAvc/B862KhjC/ufEto+coaBkYDhczrXP1xbq9rGSHA75btzogzzLo17kUyHvDqCf2ZPxp0ntCzngVwKTbePYA3EI7qIAp3CsMwBkktqe+YSljmuWjc1zAOoz1c7ksxXat4XZ7bZPuNNryMxSKbxFQgONIh16cJ0PqRWxNXIb1IMXNYGjvUiV+h9j/1LpL4OoweyiVSp7S3oU9GlEcHsuqh1q5vt5zscflstQB05AZkA2bCaeWFEV2VLOTKjLMrJaIpqJ1mc8ZZgxCXE3j3+rf8uMTy4/2StGfxtK0spk6oy0l5U9VWH81Dz7i+nLRkbKRwTD4jtcx9XY87KlthWrTctX9BdxIgmR2pBWWS2wXEALSqEO6ZPgIviwD+LHoeeoyfX6JpLhCc82Vu7FAiC6t4DTwUtfuvGc2iuDj1dw43fTPUCLxueodRqZeKGrbkROEKV7UmkP1nQJrMsltoI+hlnXTNmOyAQj5Tgg0XKnqNkOZlswflzrA=="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "### Функции\n\nФункция это фрагмент программного кода (подпрограмма) к которому можно обратиться\nиз другого места основной программы. Чаще функции имеют имя. Функции необходимы для \nповторного использования кода.\n\nСуществует больщой количество встроенных в **Python** функций, например:\n\n- print()\n- input()\n- len()\n- и т.д.\n\nДля того что бы объявить функцию необходимо написать def имя_функции():\n\n    def my_function():\n        тело функции\nДля того что бы использовать функцию надо написать вызов этой функции:\n\n    my_function()\n\n\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 452506569,
+          "name" : "Область видимости функции",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "wM+G1B3VankChioSDFyQcaAErYNujaXMpVDXs+k59lV3EXV+5Elri6FtPBtDJhJ153945gz98Sc0sN8eIyNR/RKRpVQdD0NASRSFqChRc8FM9O6zasjX3dpAyJ/CLPZlVcTDvweTgsm0KJlE0akwkDAPnAigSeS405aDvnhI26wqUkwt9dcNEAiYRz2ZPkeN6yhgSTBf9UMsuGUiVh7uES5BOnmMCTEe0nexS/1Gk50JIrDMOzkRNIORUJtFiwVwFWGUqE6LDrRwv+MhdBz6fwReY/Vg2HNGswvv3mzr9lTlII3P5FnaYF8I5vWzE5E5tDH8hJRJxHMptQ29tkszcA/ff4gj0ZyHtXnfbVU5RwZGTpeinbIKs06Ny6Fg3pBWWkMFg660esUCejq4aR3ZaVDR03nPMXzCtAqInkBY9nTnA7VszXa/x8AXlbvOY61HLAWi04wgq5tJ6ox+/+IR8KtYdyQeTGUKmN59u0F6s2C8gECYwnAVLY0c+N1ZnNvkVjv8QLGMc4qhpDvkcjJdWO5PBa7H0Qhsw0CndZUZ9H8R3kIEQ0s41nq+n28k46fZyNJTwiIZaEDgPHX3E8E0vz5nf0ES/Aa0CWYM0oz2z5srn8YcRxTa7+THeDP3+Hu4ATFZ78gOihvmI/Rrhkq4ZSxIiFbucVKPfxu3+obLCZumMhvXJl3WGAYoFSmUeX1ij2+xSHxrKYAkvQwPeSqGA5ij3a7F33Do3LW/w1M6McA="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "## Область видимости функции\n\nОбласть видимости обозначает область программы, в пределах которой идентификатор некоторой\nпеременной продолжает быть связанным с этой переменной и возвращать ее значение.\n\n### Локальные и глобальные переменные\n\n- Локальные переменные это те переменные объявление которых было внутри блока функции.\n- Глобальные переменные это те которые были объявлены вне функций и видны во всем файле.",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1404919053,
+          "name" : "Функция как объект",
+          "files" : {
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "W8guXBxIam96wBrtaiBeH2RfFUqi8K2So2PDfbzPZ/dA9UaDSDmdPhfqPcqCZ3vQKs8WBftUaepcYhgSBWFN/jdQ9bmmG0SHtP1TcEM7ol1lKlbmrjqc0rc8ql/fIaVwnxFXxsSYmhjuJqVVV//okosYhkQy4dNoI1WZcxbtZ0Snp4ZNAohBr0rGSdXh5H3hca9EdFCHIy7efxbHpwuJ0hiUDJKXiN2vSQcwiklg8vqUVrxG0V5er0qSk04myubxFERDdab6atUSJT05Q4YWZVExJozvSIV4KuBQGlQNVwsaCc9kNmtrzdIroHbkHUms3E287X7VYW7ulXucX/nKC+yswtrsNaZohSqseVMFbys/15cuWxEKhhfQ8QJkap/KzDJcfHiBpM/oVDGRuvNRv0u7wdurwemKs7Px7nuBqTScUYoftEyzyGlqg1CdzccCSFnRQjRZmRc62gYKFu+DR17sjbp7o1j2kRPQ4VeyiibBacJ4siszAdT3VkRvoDxczp2G7NGRPNpmWCjf3PpuPJmoQQ7RoBbuJGfg2BuEa3kZSZVt1SSo5NPJeAMomn+FhuPsErDHWpbCltTUaFR4QU0m6ja1PQ+kAkyA2akOGhoOoPj2qzx7oUEfZdXJYXH2jmo0REaYxLmanrXlhy+eh5rV71zYTmmyBasTS2AA6XvXcAFTa9ZeyZA4wkPUbgYJOcUnO1D8h35xs0ijyppHtnJt19f6xJu0++CwepOtzCtXrLheTtP4yOVvzgodyRp5oyED0xsyPr6WlOYUtxMMBCCrPOGFcBE1Balo2GsARjYPGHecH/ppSKGB26zrujvBcvD46QpybUhtoPHj+MKr6EA8mfCi3eaAkdI0eVmS/RSnF49MMJY76sQxfJLxss6+yepjWiOm1FfrJzp4WQsTypji+gRGk13oH/03rlOSMnAI8D1LwgM+JDvgH3kHCmp4Y8ZVFIU4IdaaZMyD2YQSpZWR5acR+UoT4OKYLKC3vkfF1JJoXboaEnBezTJVAackLfnQuEbRS4bmh0QvBD4PZrda1JOQrzAVL+EUlinQb6oBfgqzZPLlf+EZxlprq54DZy9Ckz9klsyNQ0yzlhyl299BWll771xqIzw9C/N8ktQig6eAxOlGsyhABB8lPLvdZHkNC0YvQLl0ThYpZQSkSw=="
+            }
+          },
+          "description_text" : "## Функция как объект \n\nФункция это тоже объект, ее можно записать в переменную, ее можно передавать параметром\nв другие функции.\n\nНапример есть некоторая функция my_func() \nкоторая выводит 'Hello world!'\nОбъявим еще одну функцию your_func() параметром которой будет тоже функция.\n\nПример: Создадим фильтрацию списка чисел по четности.\n\nА если необходимо фильтровать по нечетности?\nРешенеие_1: Писать новую фукцию для фильтрации.\nРешение_2: Передать функцию фильтра по нечетности в функцию перебора\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1143723427,
+          "name" : "lambda - функции",
+          "files" : {
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "GJGgpF/hcaKl/lJB0nJvzHFK2A5tBpzQUy5hnjcayo0MCBVBdaUkAufNJ6gcVPFcHT9C6O1RF+fCY3L0hRQ2xzBCb0HXGXO+zRjrKLCFX/2lcfnLp/ZosP7kaLHs7LryVuBmx7MBpWDRMuQZbb6mCg1qsdP4upnMwLHdUoKNaXPeVUe7iqAJ9KtOnCVjPDqeQsibToUlgIk133ouMAok2HCDYgRPArHu03E+zuM2AvgqJ4cjmDmz/qS/RkFz/gTcKJmwNA6tzutpbPTMHKApt1zZZURv5UwmsaaDvfYYvvR/l/5gWT+p/aeMriy1916AEcRch1dkB38CUIYSVnbhGeTuCfGxFXboyhhEw+XULEML4996IqJmvKV09pMa5b8fB+m4IY5zd37ndqZk94EFYW7uVLg+7iT+Fj9q22eDE4C3wbg4PEHFjvvYRZRccvfWnuguuj/nClxsP+n0l57BgW1K0f+aGBn6uavBbaIHuk3ivomLC5NUU8iCL3ZgRa+VYF3/EqCgKT0w8d0Fx1re3bXQeDm/hGG5Vf7EKNHb4j5k8pFO3p1zEAW9vVDttjwwEQy6eOboSLBJCR7s1FSFj/n2p+1RPLMWVzoW7hIwlDXQeTSrflCyWK1kQ3eFdiC1kZQjHT9dHckf3RKoorJj30U1ORa2qjQlghW4yahWGc1i/J8rA5g+ZG6BNK8avX1DG30mGIBJA3uB6A1wPmYXMcvjW76UCHmp7Xg4bZSc0INTrsfGBX8Kpl4X/RUOig3eZNfR16csEmAj3rmO1lT7Pg=="
+            }
+          },
+          "description_text" : "## lambda - функции\n\n- lambda - функции прменяются для создания анонимных функций по месту их использования.\n- записываются в одну строку\n- lambda входные параметры: результат\n\nСмотрим пример из предыдущего задания.",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1310561925,
+          "name" : "Задание 3.1",
+          "files" : {
+            "task.py" : {
+              "name" : "task.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "m6VqEmYC/HIZY6dMr3uIMw=="
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "px8RS4QVaK1Jup1W0BAh9Fqi7t0h0lJDNmjqtLDocbvjmu4aZKJkb49xGdrC+E5DiOX/FvxmOQaDd1NFmENHdDYSMLRVPFwYKx1h/XhXUP+70vBTbv1PTpcBHkfCO/Fz9uUjjbd9Quzj0ZbgjZxdW9DONUfjfElDNXTG+VIqdOzxP1GLK6zpomj0gH0UY4FCtx0vE+mAvU9SqcckxEQCKiQ4FRAc20j09ZsXTD+jxySaXljE20USup91eoMoZUoNPHqsbjQW3G/hYpCh/dcGwR0bBRC5DZ0ydyebZ6/wLR137N9sGBAgdQnxz0JGTcEVOosX2aLIcQGd/Co1UTFgrpuC6dfv3iveu+F8bRHVdUW5gDs+pXl8uMCxuu9dv3ioAbRDXk0C1n3186FUJk0JRjTbE8nFQbnEpUiN43i3r5PYSEMeuoLw3zrMNi0G3LlbwiSqFCPJJMPLyN3oEZlsXE273UGPVQ6gSfLR+Xt2hjLvHdY4gnzmuu6+rDghX/51yai7+wyl0HnxEXJcP7ShU/42ef8mniVpny8kpBPJdTgSvvresiEFEDGSKOtYq+xWPEec3ZoLllcKWpX5oIo3v7KlWEPXX6mWomsEmky9tl+om8I5YNV+0A5l7AlOJKhAheWiu5ulkMJfib3Ldu7Izh6J59Jl1vgQbQg2jOW9PfXzIK35xZ0oQGuw3ADyyU68Qccqs418zAVnyKfzor/a01XiqTZjz7YRzPkgGr54uJc="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "## Задание 3.1\n### Задача 1\n\nНаписать функцию с именем task_1, которая возвращает словарь являющийся ответом к заданию. \nДан текст с несколькими предложениями. Подсчитать количество слов в каждом \nпредложении и вывести на печать.\n\n    text = 'First sent. Second sent and. Third sent and other.'\nСловарь вида\n\n    dict = {'Предложение': количество_слов_в _нем}\n### Задача 2\nДля заданных двух точек написать функцию с именем task_2 возвращающаю расстоянеи между\nданными точками. Координаты точек:\n\n     x1,y1,x2,y2 = 2,5,4,9\n\n",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 287572596,
+          "name" : "Модули",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "px8RS4QVaK1Jup1W0BAh9HodTBwgdNI4E2fAzR0SvX5Z11b/KiAkaC3TaX+mRfRdBNPRpE+VOyLZ8by6sfkOxCHJuDG06ZJB8I/DtzzWZjNfDh17fmloX4LXIicnp+tiYURJ2XNENiYvFF9GdoBfBnj8i9KYav/TUdXLm/+aePc="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "### Модули\n\nЯзык **Python** позволяет помещать классы, функции и данные в отдельные файлы. \nДалее использовать эти файлы.\n\nТо есть, модулем в **Python** называется любой файл с программой.\n\nМодули необходимы для: \n- Повторного использования кода\n- Управвление простарнством имен (то есть можно использовать одинаковые имена переменных\nв разных модулях)\n- Разделение большого проекта на мелкие его части.\n\nВ **Python** существует несколько разновидностей модулей\n\n- встроенные (math, random)\n- сторонние (flask, django)\n- свои (это любой .py файл)\n\nПримеры подключения модулей\n\n    import math    - весь модуль целиком\n    import math as mt   -создание псевдонима для модуля\n    from math import*   -импорт всего содержимого модуля (не желательно)\n    from math import sin, cos    - импорт конкртеных функций из модуля",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 684220520,
+          "name" : "Собственные модули",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "oX54CbD+PnmovkyRmzTaJ1cy/sC9n4R7bZa6ovO2DV/UopNZBScVuiq8Aqr4glPA/tePuXKFiJcp+sMZazA2coZ8CGPTG7lTCHLBNXgdqN5CDmkZqHbjezze6N07moAD4fmX3a1meTIZ22s/zdJXiJ3P+5P3hvUEMsvVO5J4Ym4="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            },
+            "mymodule.py" : {
+              "name" : "mymodule.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "bKFVxKIPnmY+xxUvg5Y0pyEvB+7Okm2awcvangEqNg1LtaORh9zS6zbrcOy5PKGX4AkwNb/o+WMLTphvEgWyMhrTuJcUyTo9+TtrR8TY7Og="
+            },
+            "myfolder/newmodule.py" : {
+              "name" : "myfolder/newmodule.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "EPLIEc8OWcE1Q8R2PsfAY2B3WcaWDCLUsxU9x+Fpe8c9WhEVJAUley89g5PcT4mgOMsPji5TUwHy8yosbUgzlj4DicPiHK/IYa8J9vRK5O+NOERK8VblhkBNQpDHrxCs"
+            },
+            "script.py" : {
+              "name" : "script.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "vGDuUAvwUOWTicIJ9R+xLOgsQYqMNsOdM3DyFFOgRxEL3nrDrgbMS+0771MV8MVbDh0CjW8lMAn5HbT+Hfq/U3tq+3lXnEaMEQ1eqDwSGoQ="
+            }
+          },
+          "description_text" : "## Собственные модули\n\nСобственные модули в **Python** это файлы с разрешением .py \n\nИмпорт собственных модулей совершается так же, как и стандартных модулей, одноко\nпри мпроте необходимо учитывать путь до модуля. если модулю находится в той же папке,\nчто и файл в котором его используют, то пишем просто имя модуля.\n\n    import mymodule\n\nЕсли файл лежит в другой папке то, то пишем путь к ней.\n\n    import folder.mymodule\n\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 852770335,
+          "name" : "Модули os и sys",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "Yl0wunnwFa9CONNAmTVnYFpthYvBzn4pkD6nhvRemt8wXe/iQm6GiZ4i0ZLwpzSWivZeu3pHqWV6w3iKV+rPnuOhymtIsMscOtHzypPAJVo6lVz1kK0dIYjBI0g+2ZSlfygjIAAK5EUxZOPbJJkU2w=="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "## Модули os и sys\n\n### Модуль os\n\n- содержит функции для работы с операционной системой\n- не зависит от конкретной операционной системы\n\nФункции для работы с ОС можно посмотреть в оффициальной документации.\n\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 283062142,
+          "name" : "Работа с файлами",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "k2+RDwgknWH0SuR5vqMc9eO9+Md8UZE6uO8fY1YbCJviJKm72DVqsboauXVDiAdEhNNjYljKSRxq+0/SN0CEDt5DyFlHpVxKkqugqp8zIe1nIq/qqWljTDlG1um8u8RuRz7H4HadSKOvhi7fEuszGE+tMExDZviQ/cS9Dr3oSem0sAb8CYJtGcGXtjfOuP47peLw2i26gM71uVZ5xCW4Y7CIX8YK+k4Fukk7s3zqA46cpntaFjx9xPhmBfb/UVx4jJgQWL3Q48ADbjsHZysklIPdFIu7zfoTeqyftv/Xc2N5/pq4b92DinRh91NEf3TMrEZKvACPFc4FxDgthoB1qIdM2CP7XkKKy48Unj5y0lQthIt9W4MlETDlP6yG15rNMjNavzj/J9HB3/1Hj5vvBBsP7fhXQGSityXjyljno0+Qb/4r89pfOW+qBfw45C9+6W87e08P38VtvgSVLsayGA=="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            },
+            "file1.txt" : {
+              "name" : "file1.txt",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "QLjCFY7hN7NPPihbkjndcAvWsu5N9NQRnDMbSkswBKY="
+            },
+            "file2.txt" : {
+              "name" : "file2.txt",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "QGu1xvntNWe07hXZVjkTnzsq8S2FxvKRP6Y4hAuB9Zs="
+            }
+          },
+          "description_text" : "## Работа с файлами\n\n###  Функция open\n\nФункция open открывает файл в указанном режиме.\n\n    f = open('file.txt','w')\nfile - имя файла\n\nmode - режим\n\nencoding - кодировка\n\nРежимы открытия mode:\n\n- r-чтение\n- w-запись, если файла нет создается новый\n- x-запись, если файла нет будет ошибка\n- a-дозапись\n- b-двоичный режим\n- +-открытие на чтение и запись\n\n\n###  Закрытие файла\n\nПосле работы с файлом его необходимо закрывать, так как открытые файлы тратят ресурсы\nсистемы.\n\n    f.close()\n\nно если до close() произошла исключительная систуация, то файл не будет закрыт,\nлучше импользовать конструкцию with.",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 567912627,
+          "name" : "Задание 3.2",
+          "files" : {
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "XIlL2u+4gqNTqO7La77Ydc1Ef6uzaOuPVESSBgkHh0pyn1Ikti7rrTnkfp9BU/VHAmXD2RShwforztu+Gfo68jkfraMJMHw4lNDMFOMtX27rrTMwXrW0ipJx1fCltbJoAKvw9hhTc/GKQy9U0W5cdrrwke6ZYRvXzAJr1PZlpzSnvjU+YPdqL6zyp/hNhQ7lTnqtbGtRqW60/b4ZHT5ZtrZZdFSzeTerd6FdgEJ16XoQpSvBB3Vq2DbL8Vcn2sY8lGQxCEg0xz1gXLPfzL9Sw5SbirJcWcKVDrY174N08ZxkvzO/Vhlg/qSYis6aRcWqoPOGgs704lC6fAnAMMTJXzw3KAoy932RbZ1A1hPOsn00iiT8eNtwC1evMI1quwUqTMqWnYpv6ivpuqeaPiV73OLd+ZXK+PdM/PQKFppmzh0dFNkbCZKf7mKVkjQyh0c3nCI0HQtrnh4jiHYRiVMzuewX6k7VHdIjkL87a7WtWbZVeUhyT1UP+jlIOqLGcUGaFYGhnvkHqAL+aSQ4RmoXwbzC4D+5XTDSG62Aaw1GHeCtS9fxuQCHzMLsE19e05jJDIT005GvwJH17V4a/KjV3xt+Nu1sVdH5RyEmTxmiKEcnsPKku96KF0YWB4kV9rbo3bKOpxxwi2K4NINAumtwhZbzyy9Fak9bmh+Mc63vI7jQ4j/YMMHJQQ8D2boJlQ+jeKDfsqN0Vy1+0xeScOa/DOiGw+zDTgydWeQ9fB0/oXNkngifDaSg7OG7A44fYMRX5ibrTxs3pMKJbCaEOjqN84+SjP0m4pQJQ0E5hvl0UiqYzerSseiqUlT9vMXHa6DEEnlH6fRHks3FuMLw+CkrQLZ3VSig9wHFkS4YP6MHdYihAXYJuJcaMKoLxHG9vJY1lYVewX8RtjuiKBZzIFQ6kJto1jC9k0nx6nOpbwz2hqOeHDU1ZFZxYY1Y6aoi/N0cQ43TJFaKkmLQzahTA9yzDd/dI9nBhAdlJv0cp5KYyBAZ9Ogy3KgqU+3ehLC24AT7ALij5Otr3dV+eBkXR0hUH2iLNWJvX4sINRR0wV0CTpVEG0JeQwo7czUUQwdK3zghZ/EbNyiCKEZQl7yzxvvm0NLfJIG8EULH1Jjs/xs0bQ47ZIy+B/bQY6AFFL5zmQEV0m/KIEHzksw5ln9KBw2La5PcxpF54fnOeTs9CJfyKSB/drQNrTqlF/plrvbnzGDg18WZSOv+Qr146Kg9/4hSuuXWmsZMrsCL9j9veCT8S0K+3+Evh65p2mbief9Z4JFk1f220G4J/8ln9e/HFbXOcHHp/Ukl8XoB2zBhMPgGWvsTRxbQEbBtog7QED1vePFoT1Dbs3V9q1Xlu6FbZe7jzXgeqT6l39oD2wb0aMY6Sfo="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            },
+            "task.py" : {
+              "name" : "task.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "## Задание 3.2\n### Задача 1\n\nНаписать функцию с именем task_1, реализующую бинарный писк. Функция должна\nпринимать 2 аргумента: список и искомую переменную, а возвращать индекс этой \nпеременной.\n\n\n### Задача 2\n\nНаписать функцию с именем task_2, проверяющую является ли введенное число - простым, \nперебором делителей. Функция должна принимать 1 аргумент - число, а возвращать\nTrue или False.",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 1257854912,
+          "name" : "Задание 3.3",
+          "files" : {
+            "task.py" : {
+              "name" : "task.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "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"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            },
+            "file.txt" : {
+              "name" : "file.txt",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "xcbVYoMG0wvPB0ubHYi9iiCB0Fgoey0/jLgofEHSvfEeZTidatK4WahkXGxEmoZ1"
+            }
+          },
+          "description_text" : "## Задание 3.3\n### Задача 1\n\nНаписать функцию с именем task_1, определяющую самое частое число в списке. Функция\nпринимает список, возвращает это число.\n\n### Задача 2\n\nИзвестно, что на доске 8×8 можно расставить 8 ферзей так, чтобы они не били друг \nдруга. Вам дана расстановка 8 ферзей на доске, определите, есть ли среди них \nпара бьющих друг друга. Написать функцию с именем task_2, принимающую 2 списка, \nX и Y каждое число в которых от 1 до 8 - координаты 8 ферзей, а возвращающую \nNO если ферзи не бьют друг друга, YES если бьют.\n\n### Задача 3\n\nДаны пять действительных чисел: \uD835\uDC65, \uD835\uDC66, \uD835\uDC65\uD835\uDC50, \uD835\uDC66\uD835\uDC50, \uD835\uDC5F. Проверьте, принадлежит ли \nточка (\uD835\uDC65,\uD835\uDC66) кругу с центром (\uD835\uDC65\uD835\uDC50,\uD835\uDC66\uD835\uDC50) и радиусом \uD835\uDC5F. Если точка принадлежит кругу, \nвозвращаете True, иначе False. Имя функции task_3.\n\n### Задача 4\n\nДан список чисел. Определите, сколько в этом списке элементов, которые\nбольше двух своих соседей и выведите количество таких элементов. Функция\ntask_4 принимает список, а возвращает количество элементов.\n\n### Задача 5\n\nЗашифруйте данный текстовый файл шифром Цезаря. Функция task_5 получает ключ,\nа возвращает зашифрованный список. \n\n\n\n\n\n",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        }
+      ],
+      "type" : "lesson"
+    }
+  ],
+  "version" : 14,
+  "edu_plugin_version" : "2022.12-2022.3-161"
+}
